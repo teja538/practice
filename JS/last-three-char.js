@@ -2,20 +2,20 @@
 // Extract the last 3 characters from the string
 // Return the result
 
-function myFunction(str)
+function myFunc(str)
 {
-    n=str.length
-    ans = ""
+    let n=str.length
+    let ans = ""
     for(let i=n-3;i<n;i++)
     {
         ans = ans + str[i]
     }
-    return (ans)
-    
+    return (ans) 
 }
 
-console.log(myFunction('abcdefg'))
-console.log(myFunction('1234'))
+
+console.log(myFunc('abcdefg'))
+console.log(myFunc('1234'))
 
 // author's sol
 //  return str.slice(-3);
